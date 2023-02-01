@@ -1,3 +1,386 @@
 .bgBanner {
   background-image: url('/sprout_bg.png');
 }
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-UnionPay {
+  background-image: url('/sprite.png');
+  background-position: -42px -122px;
+  width: 38px;
+  height: 26px;
+}
+.icon-amex {
+  background-image: url('/sprite.png');
+  background-position: 0px -162px;
+  width: 38px;
+  height: 26px;
+}
+.icon-angle-down {
+  background-image: url('/sprite.png');
+  background-position: -194px -180px;
+  width: 8px;
+  height: 5px;
+}
+.icon-arr-down-black {
+  background-image: url('/sprite.png');
+  background-position: -202px -140px;
+  width: 10px;
+  height: 7px;
+}
+.icon-arr-down-green {
+  background-image: url('/sprite.png');
+  background-position: -202px -131px;
+  width: 10px;
+  height: 7px;
+}
+.icon-arr-down {
+  background-image: url('/sprite.png');
+  background-position: -202px -122px;
+  width: 10px;
+  height: 7px;
+}
+.icon-autoship-advantages__dispoint {
+  background-image: url('/sprite.png');
+  background-position: -216px -32px;
+  width: 24px;
+  height: 24px;
+}
+.icon-autoship-advantages__point {
+  background-image: url('/sprite.png');
+  background-position: -151px -162px;
+  width: 29px;
+  height: 24px;
+}
+.icon-cards {
+  background-image: url('/sprite.png');
+  background-position: 0px 0px;
+  width: 192px;
+  height: 36px;
+}
+.icon-cart-active {
+  background-image: url('/sprite.png');
+  background-position: -174px -190px;
+  width: 18px;
+  height: 16px;
+}
+.icon-cart {
+  background-image: url('/sprite.png');
+  background-position: -168px -102px;
+  width: 18px;
+  height: 16px;
+}
+.icon-close_alert {
+  background-image: url('/sprite.png');
+  background-position: -54px -212px;
+  width: 16px;
+  height: 16px;
+}
+.icon-delete {
+  background-image: url('/sprite.png');
+  background-position: 0px -212px;
+  width: 17px;
+  height: 22px;
+}
+.icon-diner_club {
+  background-image: url('/sprite.png');
+  background-position: -122px -122px;
+  width: 38px;
+  height: 26px;
+}
+.icon-discover {
+  background-image: url('/sprite.png');
+  background-position: -162px -122px;
+  width: 38px;
+  height: 26px;
+}
+.icon-dollar {
+  background-image: url('/sprite.png');
+  background-position: -216px -58px;
+  width: 27px;
+  height: 18px;
+}
+.icon-edit {
+  background-image: url('/sprite.png');
+  background-position: -216px -102px;
+  width: 21px;
+  height: 21px;
+}
+.icon-eye {
+  background-image: url('/sprite.png');
+  background-position: -216px -169px;
+  width: 23px;
+  height: 16px;
+}
+.icon-facebook-footer {
+  background-image: url('/sprite.png');
+  background-position: -168px -38px;
+  width: 20px;
+  height: 20px;
+}
+.icon-facebook {
+  background-image: url('/sprite.png');
+  background-position: 0px -38px;
+  width: 40px;
+  height: 40px;
+}
+.icon-google-footer {
+  background-image: url('/sprite.png');
+  background-position: -168px -80px;
+  width: 20px;
+  height: 20px;
+}
+.icon-gplus {
+  background-image: url('/sprite.png');
+  background-position: -84px -38px;
+  width: 40px;
+  height: 40px;
+}
+.icon-green-eye {
+  background-image: url('/sprite.png');
+  background-position: -182px -162px;
+  width: 29px;
+  height: 16px;
+}
+.icon-heart {
+  background-image: url('/sprite.png');
+  background-position: -153px -190px;
+  width: 19px;
+  height: 18px;
+}
+.icon-icn_back {
+  background-image: url('/sprite.png');
+  background-position: -230px -190px;
+  width: 6px;
+  height: 10px;
+}
+.icon-icn_check {
+  background-image: url('/sprite.png');
+  background-position: -120px -162px;
+  width: 29px;
+  height: 24px;
+}
+.icon-icn_check_small {
+  background-image: url('/sprite.png');
+  background-position: -168px -60px;
+  width: 21px;
+  height: 17px;
+}
+.icon-icn_close {
+  background-image: url('/sprite.png');
+  background-position: -216px -147px;
+  width: 20px;
+  height: 20px;
+}
+.icon-icn_close_hover {
+  background-image: url('/sprite.png');
+  background-position: -194px -78px;
+  width: 20px;
+  height: 20px;
+}
+.icon-icn_expand {
+  background-image: url('/sprite.png');
+  background-position: -182px -180px;
+  width: 10px;
+  height: 6px;
+}
+.icon-icn_pencil {
+  background-image: url('/sprite.png');
+  background-position: -132px -190px;
+  width: 19px;
+  height: 19px;
+}
+.icon-icon_reorder_base {
+  background-image: url('/sprite.png');
+  background-position: -216px -78px;
+  width: 22px;
+  height: 22px;
+}
+.icon-icon_reorder_hover {
+  background-image: url('/sprite.png');
+  background-position: 0px -190px;
+  width: 20px;
+  height: 20px;
+}
+.icon-instagram-footer {
+  background-image: url('/sprite.png');
+  background-position: -22px -190px;
+  width: 20px;
+  height: 20px;
+}
+.icon-instagramm {
+  background-image: url('/sprite.png');
+  background-position: -126px -38px;
+  width: 40px;
+  height: 40px;
+}
+.icon-jcb {
+  background-image: url('/sprite.png');
+  background-position: -80px -162px;
+  width: 38px;
+  height: 26px;
+}
+.icon-linkedin-footer {
+  background-image: url('/sprite.png');
+  background-position: -88px -190px;
+  width: 20px;
+  height: 20px;
+}
+.icon-linkedin {
+  background-image: url('/sprite.png');
+  background-position: 0px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-location-grey {
+  background-image: url('/sprite.png');
+  background-position: -19px -212px;
+  width: 16px;
+  height: 20px;
+}
+.icon-location {
+  background-image: url('/sprite.png');
+  background-position: -37px -212px;
+  width: 15px;
+  height: 18px;
+}
+.icon-logo {
+  background-image: url('/sprite.png');
+  background-position: -72px -212px;
+  width: 16px;
+  height: 16px;
+}
+.icon-minus-black {
+  background-image: url('/sprite.png');
+  background-position: -42px -150px;
+  width: 15px;
+  height: 4px;
+}
+.icon-pinterest-footer {
+  background-image: url('/sprite.png');
+  background-position: -110px -190px;
+  width: 20px;
+  height: 20px;
+}
+.icon-pinterest {
+  background-image: url('/sprite.png');
+  background-position: -84px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-plus-black {
+  background-image: url('/sprite.png');
+  background-position: -108px -212px;
+  width: 15px;
+  height: 16px;
+}
+.icon-plus-green {
+  background-image: url('/sprite.png');
+  background-position: -66px -190px;
+  width: 20px;
+  height: 20px;
+}
+.icon-plus {
+  background-image: url('/sprite.png');
+  background-position: -44px -190px;
+  width: 20px;
+  height: 20px;
+}
+.icon-question {
+  background-image: url('/sprite.png');
+  background-position: -194px -190px;
+  width: 16px;
+  height: 16px;
+}
+.icon-sm-plus {
+  background-image: url('/sprite.png');
+  background-position: -142px -212px;
+  width: 15px;
+  height: 14px;
+}
+.icon-star-big-disabled {
+  background-image: url('/sprite.png');
+  background-position: -126px -80px;
+  width: 40px;
+  height: 38px;
+}
+.icon-star-big {
+  background-image: url('/sprite.png');
+  background-position: 0px -122px;
+  width: 40px;
+  height: 38px;
+}
+.icon-star-disabled {
+  background-image: url('/sprite.png');
+  background-position: -90px -212px;
+  width: 16px;
+  height: 16px;
+}
+.icon-star {
+  background-image: url('/sprite.png');
+  background-position: -212px -190px;
+  width: 16px;
+  height: 16px;
+}
+.icon-to-top {
+  background-image: url('/sprite.png');
+  background-position: -194px 0px;
+  width: 20px;
+  height: 76px;
+}
+.icon-twitter-footer {
+  background-image: url('/sprite.png');
+  background-position: -216px -125px;
+  width: 20px;
+  height: 20px;
+}
+.icon-twitter {
+  background-image: url('/sprite.png');
+  background-position: -42px -38px;
+  width: 40px;
+  height: 40px;
+}
+.icon-user-sm {
+  background-image: url('/sprite.png');
+  background-position: -216px 0px;
+  width: 27px;
+  height: 30px;
+}
+.icon-user {
+  background-image: url('/sprite.png');
+  background-position: -125px -212px;
+  width: 15px;
+  height: 16px;
+}
+.icon-visa {
+  background-image: url('/sprite.png');
+  background-position: -82px -122px;
+  width: 38px;
+  height: 26px;
+}
+.icon-youtube-footer {
+  background-image: url('/sprite.png');
+  background-position: -194px -100px;
+  width: 20px;
+  height: 20px;
+}
+.icon-youtube {
+  background-image: url('/sprite.png');
+  background-position: -42px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-мс {
+  background-image: url('/sprite.png');
+  background-position: -40px -162px;
+  width: 38px;
+  height: 26px;
+}
